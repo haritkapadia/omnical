@@ -1,0 +1,17 @@
+{
+  "name": "omnical-fn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "compromise": "^11.14.2",
+    "googleapis": "^42.0.0",
+    "moment": "^2.24.0",
+    "prisma-client-lib": "^1.34.6",
+    "pusher": "^2.2.2"
+  },
+  "devDependencies": {}
+}

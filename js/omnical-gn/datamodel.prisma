@@ -1,0 +1,7 @@
+type User {
+  id: ID! @id
+  email: String! @unique
+  discord: String @unique
+  accessToken: String! @unique
+  refreshToken: String! @unique
+}

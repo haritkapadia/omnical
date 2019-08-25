@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3b98a3e0-377b-4c1d-88a7-603da51e7035/resourceGroups/omnical-web/providers/Microsoft.Web/sites/omnical-auth",
+    "appService.deploySubpath": ""
+}

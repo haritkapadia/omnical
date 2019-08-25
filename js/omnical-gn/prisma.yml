@@ -1,0 +1,6 @@
+endpoint: https://omnical-db.canadacentral.cloudapp.azure.com
+datamodel: datamodel.prisma
+secret: 
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma

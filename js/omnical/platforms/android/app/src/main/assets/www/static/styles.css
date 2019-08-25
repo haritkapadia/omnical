@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.navbar-light 
+.navbar-nav 
+.nav-link:hover{color:#4a9fcd}
+.navbar-light 
+.navbar-nav 
+.nav-link:active{color:#4a9fcd}
+.navbar-light 
+.navbar-nav 
+.nav-link
+.active{color:#4a9fcd}
+.form-control:focus{border-color:#4a9fcd;box-shadow:inset 0 1px 1px rgba(0,0,0,
+	.075),0 0 7px rgba(74,159,205,
+	.6)}@media(min-width:576px){
+	.card-columns{column-count:1}}@media(min-width:768px){
+	.card-columns{column-count:2}}@media(min-width:992px){
+	.card-columns{column-count:3}}@media(min-width:1200px){
+	.card-columns{column-count:3}}
+.card:hover{overflow:visible;border-color:#4a9fcd!important;box-shadow:0 0 7px rgba(74,159,205,
+	.6)!important}
+.zoom{transition:transform 
+	.5s}
+.zoom:hover{transform:scale(1
+	.2);color:#4a9fcd}
+.jumbotron{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+p{
+	text-indent: 0rem;
+}
+.btn {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+$enable-flex: true;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+@import "Bootstrap4/bootstrap";
