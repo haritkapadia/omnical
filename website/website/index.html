@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta links -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- import css links -->
+	<link rel="stylesheet" href="static/styles.css">
+	<link rel="stylesheet" href="static/codehilite.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- import icon -->
+	<link rel="icon" type="image/png" sizes="92x92" href="assets/icons/favicon.png">
+
+	<!-- import code blocks -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+
+	<!-- import code blocks highlighting -->
+	<link rel="stylesheet" href="static/highlight/styles/dracula.css">
+	<script src="static/highlight/highlight.pack.js"></script>
+
+	<!-- styling -->
+	<style>
+		html {
+			position: relative;
+			min-height: 100%
+		}
+		body {
+			margin-bottom: 25px;
+		}
+	</style>
+
+	<title>OmniCal</title>
+</head>
+
+<body>
+	<!-- NAV BAR -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- COMPANY NAME -->
+		<a class="navbar-brand" href="#">OmniCal</a>
+
+		<!-- HAMBURGER MENU -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- NAVBAR TEXT -->
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="setup.html">Set-Up</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--DATE -->
+	<div class="jumbotron jumbotron-fluid shadow p-3 bg-white rounded">
+		<div class="container">
+			<div>
+				<h3>Date</h3>
+				<p class="lead">Please select a date:</p>
+				<hr class="my-4">
+
+				<!-- buttons -->
+				<div class="btn-group-toggle" data-toggle="buttons">
+					<!-- use keyword 'active' to activate the button -->
+					<!-- <label class="btn btn-outline-primary active">
+						<input type="checkbox" checked autocomplete="off"> Monday June 14, 2019
+					</label> -->
+
+					<!-- id is optional -->
+					<label class="btn btn-outline-info">
+						<input type="radio" name="options" id="option1" autocomplete="off"> Monday June 14, 2019
+					</label>
+					<label class="btn btn-outline-info">
+						<input type="radio" name="options" id="option2" autocomplete="off"> Friday Aug 11, 2019
+					</label>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--TIME -->
+	<div class="jumbotron jumbotron-fluid shadow p-3 bg-white rounded">
+		<div class="container">
+			<div>
+				<h3>Time</h3>
+				<p class="lead">Please select a time:</p>
+				<hr class="my-4">
+
+				<!-- buttons -->
+				<div class="btn-group-toggle" data-toggle="buttons">
+
+					<!-- id is optional -->
+					<label class="btn btn-outline-info">
+						<input type="radio" name="options" id="option1" autocomplete="off"> 3:00am
+					</label>
+					<label class="btn btn-outline-info">
+						<input type="radio" name="options" id="option2" autocomplete="off"> 6:30pm
+					</label>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--EVENT NAME -->
+	<div class="jumbotron jumbotron-fluid shadow p-3 bg-white rounded">
+		<div class="container">
+			<div>
+				<h3>Event Name</h3>
+				<p class="lead">Please select a keywords to build your event name:</p>
+				<hr class="my-4">
+
+				<!-- buttons -->
+				<div class="btn-group-toggle" data-toggle="buttons">
+					<!-- id is optional -->
+					<label class="btn btn-outline-info">
+						<input type="checkbox" name="options" id="option1" autocomplete="off"> Meeting
+					</label>
+					<label class="btn btn-outline-info">
+						<input type="checkbox" name="options" id="option2" autocomplete="off"> Business
+					</label>
+					<label class="btn btn-outline-info">
+						<input type="checkbox" name="options" id="option2" autocomplete="off"> Mary's
+					</label>
+					<label class="btn btn-outline-info">
+						<input type="checkbox" name="options" id="option2" autocomplete="off"> at
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- RUN BUTTON -->
+	<div class="container pw-5 pt-1">
+		<button type="button" class="btn btn-primary btn-lg btn-block">Go!</button>
+	</div>
+	
+
+</body>
+
+<footer>
+	<div>
+		<!-- import js and JQuery, Popper.js -->
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- clipboard.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+	</div>
+</footer>
+
+</html>
